@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta nome="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulrio de Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <div class="For">
+        <form action="">
+            <fieldset>
+                <legend><b>Formulario de Cadastro</b></legend>
+                <br>
+                <div class="Box">
+                    <input type="text" nome="Nome" id="Nome" class="User" required>
+                    <label for="Nome" class="labelIn">Nome:</label>
+                </div>
+                <br><br>
+                <div class="Box">
+                    <input type="email" nome="email" id="email" class="User" required>
+                    <label for="email" class="labelIn">email:</label>
+                </div>
+                <br><br>
+                <div class="Box">
+                    <input type="tel" nome="Telefone" id="Telefone" class="User" required>
+                    <label for="Telefone" class="labelIn">Telefone:</label>
+                </div>
+                <p>sexo:</p>
+                <input type="radio" id="feminino" nome="sexo" value="feminino" required>
+                <label for="feminino">Feminino</label>
+                <br><br>
+                <input type="radio" id="masculino" nome="sexo" value="masculino" required>
+                <label for="masculino">Masculino</label>
+                <br><br>
+                    <label for="data de nacimento"><b>data de nacimento:</b></label>
+                    <input type="date" nome="data de nacimento" id="data_nacimento"  required>
+                <br><br>
+                <input type="submit" name="Botom" id="Botom">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,69 @@
+body {
+    font-family: arial;
+    background-image: linear-gradient(to right, rgb(50, 157, 140), rgb(15, 40, 20));
+}
+.For {
+    color: #FFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 13px;
+    border-radius: 13px;
+    width: 20%;
+}
+fieldset {
+    border: 3px solid red;
+}
+legend {
+    border: 1px solid red;
+    padding: 10px;
+    text-align: center;
+    background-color: red;
+    border-radius: 4px;
+    
+}
+.Box {
+    position: relative;
+}
+.User {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #FFF;
+    outline: none;
+    color: #FFF;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.labelIn {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+.User:focus ~ .labelIn,
+.User:valid ~ .labelIn{
+    top: -19px;
+    font-size: 12px;
+    color: red;
+}
+#data_nacimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+#Botom {
+    background-color: black;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: #FFF;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
